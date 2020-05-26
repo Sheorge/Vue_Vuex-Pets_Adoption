@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>{{species}} for Adoption</h1>
-    <b-table striped hover :items="pets">
+    <h1 class="m-4">{{species}} for Adoption</h1>
+    <b-table class="border bg-white" striped hover :items="pets">
       <template v-slot:cell(name)="data">
         <router-link :to="`/pets/${{species}}/${data.index}`">
           {{
