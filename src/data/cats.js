@@ -2,7 +2,7 @@ export default [
   {
     名前: "サカナ",
     品種: "tuxedo",
-    species: "cat",
+    イヌorネコ: "ネコ",
     性別: "オス",
     年齢: 20,
     毛色: "白黒",
@@ -12,7 +12,7 @@ export default [
   {
     名前: "ヘンリー",
     品種: "tabby",
-    species: "cat",
+    イヌorネコ: "ネコ",
     性別: "オス",
     年齢: 20,
     毛色: "白茶",
@@ -22,7 +22,7 @@ export default [
   {
     名前: "タマ",
     品種: "tabby",
-    species: "cat",
+    イヌorネコ: "ネコ",
     性別: "オス",
     年齢: 20,
     毛色: "灰",
@@ -32,7 +32,7 @@ export default [
   {
     名前: "キティー",
     品種: "bombay",
-    species: "cat",
+    イヌorネコ: "ネコ",
     性別: "メス",
     年齢: 0.9,
     毛色: "黒",

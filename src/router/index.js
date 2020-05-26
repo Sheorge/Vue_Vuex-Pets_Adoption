@@ -15,12 +15,12 @@ const routes = [
   },
   {
     path: "/cats",
-    name: "cats",
+    name: "ネコ",
     component: Cats,
   },
   {
     path: "/dogs",
-    name: "dogs",
+    name: "イヌ",
     component: Dogs,
   },
   {

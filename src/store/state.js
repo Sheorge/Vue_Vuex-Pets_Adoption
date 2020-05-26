@@ -1,4 +1,4 @@
-import cats from "../data/cats";
-import dogs from "../data/dogs";
+import ネコ from "../data/cats";
+import イヌ from "../data/dogs";
 
-export default { cats, dogs, pets: [...cats, ...dogs] };
+export default { ネコ, イヌ, pets: [...ネコ, ...イヌ] };

@@ -1,15 +1,15 @@
 export default {
   animalsCount: (state) => {
-    return state.cats.length + state.dogs.length;
+    return state.ネコ.length + state.イヌ.length;
   },
   getAllDogs: (state) => {
     return state.pets.filter((pet) => {
-      return pet.species === "dog";
+      return pet.イヌorネコ === "イヌ";
     });
   },
   getAllCats: (state) => {
     return state.pets.filter((pet) => {
-      return pet.species === "cat";
+      return pet.イヌorネコ === "ネコ";
     });
   },
 };

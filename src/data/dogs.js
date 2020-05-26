@@ -2,7 +2,7 @@ export default [
   {
     名前: "イッヌ",
     品種: "collie",
-    species: "dog",
+    イヌorネコ: "イヌ",
     性別: "メス",
     年齢: 7,
     毛色: "白",
@@ -12,7 +12,7 @@ export default [
   {
     名前: "ヒラリー",
     品種: "mut",
-    species: "dog",
+    イヌorネコ: "イヌ",
     性別: "メス",
     年齢: 17,
     毛色: "茶",
@@ -22,7 +22,7 @@ export default [
   {
     名前: "レオ",
     品種: "afghan hound",
-    species: "dog",
+    イヌorネコ: "イヌ",
     性別: "オス",
     年齢: 9,
     毛色: "灰",
@@ -32,7 +32,7 @@ export default [
   {
     名前: "ポチ",
     品種: "golden retriever",
-    species: "dog",
+    イヌorネコ: "イヌ",
     性別: "メス",
     年齢: 2,
     毛色: "白茶",

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PetTable species="cats" :pets="cats" />
+    <PetTable イヌorネコ="ネコ" :pets="ネコ" />
   </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
     return {};
   },
   computed: {
-    ...mapState(["cats"])
+    ...mapState(["ネコ"])
   }
 };
 </script>

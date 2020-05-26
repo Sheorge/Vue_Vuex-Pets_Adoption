@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1 class="m-4">{{species}} for Adoption</h1>
+    <h1 class="m-4">保護された{{イヌorネコ}}の一覧</h1>
     <b-table class="border bg-white" striped hover :items="pets">
       <template v-slot:cell(name)="data">
-        <router-link :to="`/pets/${{species}}/${data.index}`">
+        <router-link :to="`/pets/${{イヌorネコ}}/${data.index}`">
           {{
           data.value
           }}
@@ -16,7 +16,7 @@
 <script>
 export default {
   props: {
-    species: String,
+    イヌorネコ: String,
     pets: Array
   }
 };
